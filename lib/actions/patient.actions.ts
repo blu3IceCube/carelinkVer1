@@ -72,7 +72,7 @@ export const registerPatient = async ({
         identificationDocumentId: file?.$id || null,
         identificationDocumentUrl: `${ENDPOINT}/storage/buckets/${BUCKET_ID}/files/${file?.$id}/view?project=${PROJECT_ID}`,
         // @ts-ignore
-        ...newPatient,
+        ...patient,
       }
     );
 

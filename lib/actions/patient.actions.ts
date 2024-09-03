@@ -25,3 +25,4 @@ export const createUser = async (user: CreateUserParams) => {
     console.log("error", error);
   }
 };
+

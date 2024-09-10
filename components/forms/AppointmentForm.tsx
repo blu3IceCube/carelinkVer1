@@ -45,6 +45,8 @@ const AppointmentForm = ({
   async function onSubmit(values: z.infer<typeof AppointmentFormValidation>) {
     setIsLoading(true);
 
+    console.log("inside appointment form submit", type);
+
     let status;
     switch (type) {
       case "schedule":

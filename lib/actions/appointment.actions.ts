@@ -5,6 +5,7 @@ import {
   APPOINTMENT_COLLECTION_ID,
   BUCKET_ID,
   DATABASE_ID,
+  databases,
   ENDPOINT,
   PROJECT_ID,
 } from "../appwrite.config";
